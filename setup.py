@@ -2,9 +2,9 @@
 
 # Based on codepy's setup.py (see http://mathema.tician.de/software/codepy)
 
-import distribute_setup
+#import distribute_setup
 import pycasp 
-distribute_setup.use_setuptools()
+#distribute_setup.use_setuptools()
 
 from setuptools import setup
 import glob
