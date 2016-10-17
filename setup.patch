@@ -1,0 +1,28 @@
+From d3a1a1dcedb8e47b7d5a326d2e76d47cc108819a Mon Sep 17 00:00:00 2001
+From: Amit Juneja <amitj@vm64-23.iplantcollaborative.org>
+Date: Mon, 17 Oct 2016 16:01:23 -0700
+Subject: [PATCH] Fixed problem with distribute_setup.py
+
+---
+ setup.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/setup.py b/setup.py
+index a5274e6..c553dc3 100644
+--- a/setup.py
++++ b/setup.py
+@@ -2,9 +2,9 @@
+ 
+ # Based on codepy's setup.py (see http://mathema.tician.de/software/codepy)
+ 
+-import distribute_setup
++#import distribute_setup
+ import pycasp 
+-distribute_setup.use_setuptools()
++#distribute_setup.use_setuptools()
+ 
+ from setuptools import setup
+ import glob
+-- 
+1.9.1
+
